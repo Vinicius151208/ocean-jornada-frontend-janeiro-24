@@ -4,6 +4,7 @@
   padding: 16px;
   box-shadow: 4px 4px black;
   text-align: center;
+  cursor: pointer;
 }
 
 .card > h2 {
@@ -13,4 +14,23 @@
 
 .card > img {
   border-radius: 10px
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+  max-width: 300px;
+  justify-content: center;
+}
+
+.tag {
+  background: black;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 4px;
+
 }
